@@ -1,6 +1,6 @@
 # ShopifyLogin
-###### Requires Node.js version 4.0.0 or higher.
 ## Description
+###### Requires Node.js version 4.0.0 or higher.
 This module is a lightweight wrapper for the [request](https://www.npmjs.com/package/request) module. It provides a simple interface for spoofing login requests to Shopify's backend, allowing you to make requests to undocumented, private endpoints.
 
 ## Why?
