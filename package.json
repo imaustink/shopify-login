@@ -1,0 +1,24 @@
+{
+  "name": "shopify-login",
+  "version": "1.0.0",
+  "description": "Spoof a Shopify login and get all the good bits so you can easily fake request to the backend to go beyond the documented API.",
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "keywords": [
+    "Shopify",
+    "spoof",
+    "login"
+  ],
+  "author": "Austin J Kurpuis",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^0.22.0",
+    "request": "^2.79.0"
+  },
+  "engines" : {
+    "node" : ">=4.0.0"
+  },
+  "engineStrict" : true
+}
