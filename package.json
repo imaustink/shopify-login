@@ -1,10 +1,14 @@
 {
   "name": "shopify-login",
-  "version": "1.0.0",
-  "description": "Spoof a Shopify login and get all the good bits so you can easily fake request to the backend and go beyond the documented API.",
+  "version": "1.0.1",
+  "description": "Spoof a Shopify login so you can easily make requests to the internal, undocumented API.",
   "main": "index.js",
   "scripts": {
     "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/imaustink/shopify-login.git"
   },
   "keywords": [
     "Shopify",

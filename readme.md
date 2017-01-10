@@ -7,7 +7,7 @@ This module is a lightweight wrapper for the [request](https://www.npmjs.com/pac
 Say you want to write a program that imports order comments, programatically create gift cards and discounts without Plus or automate just about any task in the Shopify admin panel, this is a good starting point.
 
 ## How?
-This module will take care of the authentication handshake for you, just call ```.authenticate(user, callback)``` and it will give you back an instance of request with a cookie jar containing the logged in session already setup as the first argument, from there you can just make HTTP calls to Shopify. Some calls will require an authenticity_token and/or csfr_token, third argument is an object containing those tokens.
+This module will take care of the authentication handshake for you, just call ```.authenticate(user, callback)``` and it will give you back an instance of request with a cookie jar containing the logged in session already setup as the second argument of the callback, from there you can just make HTTP calls to Shopify. Some calls will require an authenticity_token and/or csfr_token, the third argument of the callback is an object containing those tokens.
 ``` javascript
 const ShopifyLogin = require('shopify-login');
 // Init ShopifyLogin
