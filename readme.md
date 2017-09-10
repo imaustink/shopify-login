@@ -1,6 +1,8 @@
 # ShopifyLogin
 ## Description
 ###### Requires Node.js version 4.0.0 or higher.
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/imaustink/shopify-login.svg)](https://greenkeeper.io/)
 This module is a lightweight wrapper for the [request](https://www.npmjs.com/package/request) module. It provides a simple interface for spoofing login requests to Shopify's backend, allowing you to make requests to undocumented, private endpoints.
 
 ## Why?
